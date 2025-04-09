@@ -18,6 +18,7 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #f5f5f5;
         }
         
         h1 {
@@ -46,12 +47,23 @@
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         
-        .header-image {
-            width: 100%;
-            max-height: 300px;
-            object-fit: cover;
+        .top-banner {
+            background-color: #06C755;
+            color: white;
+            padding: 30px;
+            text-align: center;
             border-radius: 5px;
-            margin: 20px 0;
+            margin-bottom: 30px;
+        }
+        
+        .top-banner h1 {
+            color: white;
+            margin: 0 0 10px 0;
+        }
+        
+        .top-banner p {
+            font-size: 1.2rem;
+            margin: 0;
         }
         
         .features {
@@ -157,10 +169,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>プロラインフリー</h1>
-        <p style="text-align: center; font-size: 1.2rem; margin-bottom: 30px;">LINE公式アカウントを無料で最大活用する革新的なツール</p>
-        
-        <img src="/api/placeholder/800/300" alt="プロラインフリー活用イメージ" class="header-image">
+        <div class="top-banner">
+            <h1>プロラインフリー</h1>
+            <p>LINE公式アカウントを無料で最大活用する革新的なツール</p>
+        </div>
         
         <div class="highlight">
             <p><strong>プロラインフリーの特徴：</strong></p>
